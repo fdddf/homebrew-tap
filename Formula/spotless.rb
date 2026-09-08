@@ -5,10 +5,10 @@
 class Spotless < Formula
   desc "Fast, transparent macOS cleaner for the terminal, with a TUI"
   homepage "https://github.com/fdddf/spotless-cli"
-  url "https://github.com/fdddf/spotless-cli/releases/download/v0.1.1/spotless-macos-universal.tar.gz"
-  sha256 "918922114a50b89d1cceea57184807df52a4ceefd955d3346812ee1d960bc9bf"
+  url "https://github.com/fdddf/spotless-cli/releases/download/v0.1.2/spotless-macos-universal.tar.gz"
+  sha256 "986b8bda1e0a4c704e52b57411862c4c122dfab3b333945d4268419cc5b12baa"
   license "GPL-3.0-or-later"
-  version "0.1.1"
+  version "0.1.2"
 
   depends_on :macos
 
