@@ -1,7 +1,7 @@
 # A binary formula: the release ships one universal Mach-O built and published
 # by the project's own CI, so there is nothing to compile here and no bottle to
 # pour. `brew audit --strict` will note the lack of a build; that is expected
-# for a tap distributing a signed release artifact.
+# for a tap distributing a prebuilt release artifact.
 class Spotless < Formula
   desc "Fast, transparent macOS cleaner for the terminal, with a TUI"
   homepage "https://github.com/fdddf/spotless-cli"
